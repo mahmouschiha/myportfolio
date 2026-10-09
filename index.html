@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon Portfolio Professionnel</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Barre de navigation -->
+    <header>
+        <nav class="navbar">
+            <div class="logo">MonPortfolio</div>
+            <ul class="nav-links">
+                <li><a href="#about">À propos</a></li>
+                <li><a href="#projects">Projets</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Section Accueil / À propos -->
+    <section id="about" class="hero-section">
+        <div class="hero-content">
+            <h1>Bonjour, je suis Mahmoud Chiha</h1>
+            <p>Développeur Full-Stack passionné par la création d'applications web modernes, performantes et accessibles à tous.</p>
+            <button id="cta-btn">Me découvrir</button>
+        </div>
+    </section>
+
+    <!-- Section Projets (Critère Accessibilité avec les tags 'alt') -->
+    <section id="projects" class="projects-section">
+        <h2>Mes Projets Récents</h2>
+        <div class="projects-grid">
+            <!-- Projet 1 -->
+            <div class="project-card">
+                <img src="i1.jpg" alt="Capture d'écran de l'application de gestion de bibliothèque avec interface utilisateur épurée">
+                <h3>Système de Bibliothèque</h3>
+                <p>Application console et web en C# permettant de rechercher et d'emprunter des livres avec gestion des limites.</p>
+            </div>
+            <!-- Projet 2 -->
+            <div class="project-card">
+                <img src="i2.jpg" alt="Graphiques analytiques affichés sur un écran d'ordinateur portable moderne">
+                <h3>Tableau de Bord Analytique</h3>
+                <p>Interface dynamique développée en JavaScript asynchrone pour visualiser des données en temps réel.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Contact -->
+    <section id="contact" class="contact-section">
+        <h2>Contactez-moi</h2>
+        <p>Une opportunité, une question ou une idée de projet ? N'hésitez pas à m'écrire.</p>
+        <a href="mailto:votre.email@example.com" class="contact-btn">Envoyer un message</a>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Mahmoud Chiha. Tous droits réservés.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
